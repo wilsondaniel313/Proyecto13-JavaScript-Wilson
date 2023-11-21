@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #809c85 ;
+}
+.barra{
+    background-color: #7c7c7c;
+    height: 45px;
+    width: 50%;
+    margin: 130px auto;
+    box-shadow: inset 6px 6px 12px #303030,
+        inset -6px -6px 12px #404040;
+    overflow: hidden;
+    border: none;
+    border-radius: 20rem;
+}
+.progreso{
+    height: 100%;
+    width: 0;
+    background-color: rgb(16, 217, 73);
+    box-shadow: 0 0 10px rgb(16, 217, 73),
+        0 0 20px rgb(16, 217, 73);
+    display: block;
+    border-radius: 20rem;
+}
+.porcentaje{
+    font-size: 2.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    transform: translatey(100px);
+    color: rgb(16, 217, 73);
+}
+body.celebracion{
+    background-image: url('../img/celebracion.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
